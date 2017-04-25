@@ -1,3 +1,10 @@
-<h1>
-  {{title}}
-</h1>
+<div class="app-container">
+  <h1>
+    {{title}}
+  </h1>
+  <p>
+    <a [routerLink]="['/product']">Product</a>
+    <a [routerLink]="['/gender']">Gender</a>
+  </p>
+</div>
+<router-outlet></router-outlet>
